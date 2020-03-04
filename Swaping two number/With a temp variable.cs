@@ -1,6 +1,6 @@
 static void Main(string[] args)
         {
-            // Swap Two Number Wih A Third \ Temporary Variable.
+            // Swap Two Number With A Third \ Temporary Variable.
 
             int a, b, temp;
             Console.Write("Enter the Value for a = ");
