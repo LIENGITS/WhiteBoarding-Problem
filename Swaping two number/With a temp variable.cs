@@ -15,3 +15,11 @@ static void Main(string[] args)
             Console.WriteLine($"After Swapping a = {a} and b = {b}");
 
         }
+
+
+*/    Temp      a     b
+       0        3     4
+ 1.    3 -------0
+ 2.             4-----0
+ 3.    0--------------4  
+        
