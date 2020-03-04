@@ -26,3 +26,29 @@ static void Main(string[] args)
          14/10=10           6+4=14         14%10=4
              0              14+1=15       10%10=1
              
+
+               
+  public static void SumofDigits(int n)
+        {
+            int k, sum = 0;
+
+            while (n != 0)
+            {
+                k = n % 10;
+                n = n / 10;
+                sum = sum + k;
+            }
+            Console.WriteLine($"The sum of the digits are {sum}!");
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please enter a digit!");
+            SumofDigits(int.Parse(Console.ReadLine()));
+        }
+    }
+}             
+               
+               
+               
+               
+               
