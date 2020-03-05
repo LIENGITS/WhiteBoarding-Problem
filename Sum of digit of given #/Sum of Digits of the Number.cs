@@ -48,7 +48,25 @@ static void Main(string[] args)
     }
 }             
                
-               
+ public static int SumofDigits(int n) 
+        {                                    
+            int k, sum = 0;
+            while (n !=0)
+            {
+                k = n % 10;
+                n = n / 10;
+                sum = sum + k;
+           }
+            return sum;
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter a digits!");
+            int input = int.Parse(Console.ReadLine());
+            Console.WriteLine($"The sum of the digit is {SumofDigits(input)}");
+        }
+    }
+}              
                
                
                
